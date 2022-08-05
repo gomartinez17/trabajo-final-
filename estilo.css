@@ -1,0 +1,773 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;
+color: white;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+
+
+header{
+    background-color:black;
+
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+    padding: 1.5vw;
+    transition:  all .3s ease 0s;
+}
+
+footer{
+    width: 100%;
+    background: #4f4d4d;
+    color: white;   
+    
+}
+
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+label{color: white;}
+
+.cont-somostecod{
+    text-align: center;
+    padding: 200px 12px;
+    
+}
+.color{
+    color: black;
+}
+
+.containertem {
+    font-size: large;
+    text-align: center;
+}
+
+.text{
+    font-size: 2.5em;
+    padding: auto;
+}
+
+.text2{
+    font-size: 2.5em;
+}
+
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{ color:red; }
+
+.color-acento2{ color:red; }
+
+.input{
+    padding: 10px 40px;
+    margin-top: 20px;
+    border: none;
+    background: red;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 300ms;
+}
+
+
+
+.logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: red;
+    font-size: 1.6em;
+}
+
+
+.tec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/imagenes/backgroundmain.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+
+.nuestros-cursos{
+    background-color: rgb(255, 255, 255);
+    color: white;
+    text-align: center;
+}
+
+.cont-somostec{
+    text-align: center;
+    padding: 200px 12px;
+    
+}
+
+.cont-somostecod{
+    text-align: center;
+    padding: 2 0px 12px;
+    
+}
+
+.contenedor_cartas{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.carta{
+    width: 300px;
+    margin: 10px;
+    transition: all 300ms;
+}
+
+
+.final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30,30,30);
+    color: white;
+    height: 80vh;
+}
+
+
+
+
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1{
+    max-width: 400px;
+}
+
+.colum2{
+    max-width: 400px;
+    
+}
+
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+
+
+.cont-ul {
+    display: flex;
+    align-items: center;
+}
+
+.develop {
+    position: relative;
+}
+
+.ul-second {
+    display: none;
+    position: absolute;
+    margin-top: 1.5vw;
+}
+
+.cont-somostecod{
+    background-color: white;
+    color: white;
+    text-align: center;
+}
+.cont-somostecod h2{
+    color: black;
+}
+
+
+li.tem{
+    list-style-type: none;
+    cursor: pointer;
+    padding: auto;
+     text-align: center;
+    transition:  all .3s ease 0s;
+    font-size: large;
+}
+
+
+.ul-second > li {
+    width: 190px;
+    transform: translateX(-20px);
+    border-bottom:solid 1px #fff ;
+    text-align: center;
+    background-color: #24252a;
+}
+nav li:hover {
+    background-color: red;
+}
+
+.ul-second > li:hover {
+    background-color: red;
+}
+
+
+
+.colum1 h1{
+    font-size: 22px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: white;
+    margin-top: 20px;
+}
+
+
+.colum2 h1{
+    font-size: 22px;
+}
+
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+}
+
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caracteristicas li{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+.nuestros-cursos h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+.nuestros-cursos p{
+    display: none;
+}
+
+
+
+
+
+.input:hover{
+    background: black;
+}
+
+
+
+.input:hover{
+    background-color: black;
+}
+
+.somos-tec .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+
+
+.nuestros-cursos .container{
+    padding: 150px 12px;
+}
+
+
+
+.nuestros-cursos .cartax{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+
+.cont-somostecod .programa{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.cont-somostecod .carta{
+    padding: 50px;
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-color:rgb(165, 153, 153);
+    box-shadow: 10px 10px 10px ;
+}
+
+.carta:first-child{
+   background-image: url(/imagenes/CSS3_and_HTML5_logos_and_wordmarks.svg_.png);
+
+}
+
+.carta:nth-child(2){
+   background-image: url(/imagenes/065633boo14lah77u6o1ug.png);
+}
+
+.carta:nth-child(3){
+    background-image: url(/imagenes/JavaScript-logo-600x375.png);
+
+}
+
+.cartax:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/imagenes/programadores-en-la-industria-4-0-universidad-continental.jpg");
+
+}
+
+.cartax:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/imagenes/Programador-33-696x464.jpg");
+}
+
+.cartax:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/imagenes/img-1.jpg");
+
+}
+
+
+.caracteristicas .container{
+    text-align: center;
+    padding: 250px 12px;
+}
+
+.develop:hover > .ul-second {
+    display: block;
+}
+
+
+
+.front:hover > .ul-third {
+    display: block;
+}
+
+
+.final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30,30,30);
+    color: white;
+    height: 50vh;
+}
+
+
+
+.container-footer{
+    width: 100%;  
+    background: black;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+.copyright{
+    color:white;
+}
+
+
+
+.information a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+@media (min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    .somos-tec .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .somos-tec .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .somos-tec h2{
+        margin-top: 0px;
+    }
+
+    .somos-tec .img-container{
+        background-image: url("/imagenes/fondo.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 400px; 
+    }
+
+    .somos-tec .img-container2{
+        background-image: url("/imagenes/pagina-web-1.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 400px; 
+    }
+
+    .somos-tec .img-container3{
+        background-image: url("/imagenes/DesarrolloSoftwareft.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 400px; 
+    }
+    .somos-tec .img-container4{
+        background-image: url("/imagenes/jv.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 400px; 
+    }
+
+
+    .nuestros-cursos .programas{
+        display: flex;
+        justify-content: center;
+    }
+
+    .cont-somostecod{
+        padding: 90px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: white;
+    }
+
+    .contact-wrapper {
+        box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+    }
+    
+    .contact-wrapper > * {
+        padding: 1em;
+    }
+    
+    .contact-form {
+        background: #222222;
+        
+    }
+    
+    .contact-info {
+        background: rgb(230, 219, 219);
+    }
+    
+    .contact-info h4, .contact-info ul, .contact-info p {
+        text-align: center;
+        margin: 1 1 1rem 1;
+    }
+    
+    .contact-form form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .contact-form form button,
+    .contact-form form input,
+    .contact-form form textarea {
+        width: 100%;
+        padding: .7em;
+        border: none;
+        background: none;
+        outline: 0;
+        color: #fff;
+        border-bottom: 1px solid #d63031;
+    }
+    
+    .contact-form form button {
+        background: #B70E21;
+        border: 0;
+        text-transform: uppercase;
+        padding: 1em;
+    }
+    
+    .contact-form form label {
+        display: block;
+    }
+    
+    .contact-form form p {
+        margin: 0;
+        padding: 1em;
+    }
+    
+
+    .nuestros-cursos p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .nuestros-cursos h2{
+        font-size: 4em;
+    }
+
+    .nuestros-cursos h3{
+        margin-top: 0;
+    }
+
+    .nuestros-cursos .carta{
+        padding: 50px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(50, 50, 50, 1);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+
+    .cont-somostecod .cursos{
+        display: flex;
+        justify-content: center;
+    }
+
+    .cont-somostecod p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .cont-somostecod h2{
+        font-size: 4em;
+    }
+
+    .cont-somostecod h3{
+        margin-top: 0;
+    }
+
+    .cont-somostecod .carta{
+        padding: 50px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color:tr;
+        box-shadow: 2px 2px 10px ;
+    }
+
+    .carta:first-child{
+       background-image: url(/imagenes/CSS3_and_HTML5_logos_and_wordmarks.svg_.png);
+
+    }
+
+    .carta:nth-child(2){
+       background-image: url(/imagenes/065633boo14lah77u6o1ug.png);
+    }
+
+    .carta:nth-child(3){
+        background-image: url(/imagenes/JavaScript-logo-600x375.png);
+
+    }
+
+    .cartax:first-child{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("/imagenes/programadores-en-la-industria-4-0-universidad-continental.jpg");
+
+    }
+
+    .cartax:nth-child(2){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("/imagenes/Programador-33-696x464.jpg");
+    }
+
+    .cartax:nth-child(3){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("/imagenes/img-1.jpg");
+
+    }
+    
+    .carta:hover .cover img{
+        top: 0px;
+        filter: none;
+    }
+    
+    .carta:hover .description{
+        padding: 40px;
+    }
+
+    .caracteristicas{
+        background-image: url("/imagenes/Programador-33-696x464.jpg");
+        background-repeat: no-repeat;
+        background-size: 500px 400px;
+        background-position: calc(100vw - 500px) 120px;
+    }
+
+    .caracteristicas .container{
+        text-align: initial;
+    }
+
+    .caracteristicas ul{
+        margin-left: 100px;
+    }
+
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        text-align: left;
+    }
+
+    .final h2{
+        font-size: 5em;
+    }
+
+   
+
+    footer .container{
+        justify-content: flex-end;
+    }
+}
+
+@media (min-width: 1200px) {
+    .caracteristicas{
+        background-position-x: calc(100vw - 800px); 
+    }
+   
+ }
